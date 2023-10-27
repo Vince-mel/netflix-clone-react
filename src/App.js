@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import MyNavbar from "./components/MyNavbar";
+import "../src/style.css";
+import Header from "./components/Header";
+import MoviesCards from "./components/MoviesCards";
+import Footer from "./components/Footer";
+import React from "react";
+import { Row } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MyNavbar />
+      <Header />
+      <MoviesCards title="Harry Potter" category="Fantasy" />
+      <MoviesCards title="Star Wars" category="Sci Fi" />
+      <MoviesCards title="Batman" category="Trending Now" />
+
+      <Footer />
+    </>
   );
 }
 
