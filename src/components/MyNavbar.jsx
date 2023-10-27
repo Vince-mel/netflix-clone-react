@@ -22,7 +22,7 @@ class MyNavbar extends Component {
             <Nav.Link>Recently Added</Nav.Link>
             <Nav.Link>My List</Nav.Link>
           </Nav>
-          <Nav id="avatarZone">
+          <Nav id="avatarZone" className="d-md-none!">
             <BsSearch className="navbar-icon" />
             <BsFillBellFill className="navbar-icon" />
             <Nav.Link>Vincenzo</Nav.Link>

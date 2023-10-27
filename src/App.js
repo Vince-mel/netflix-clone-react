@@ -16,7 +16,6 @@ function App() {
       <MoviesCards title="Harry Potter" category="Fantasy" />
       <MoviesCards title="Star Wars" category="Sci Fi" />
       <MoviesCards title="Batman" category="Trending Now" />
-
       <Footer />
     </>
   );
